@@ -1,2 +1,2 @@
-# adrileroux.github.io-freeternity
-Freeternity landing page
+# freeternity
+Freeternity Site
