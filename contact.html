@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<title>About - Sustainability</title>
+	<title>Contact Us</title>
 	
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -126,15 +126,15 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section class="module module-parallax bg-dark-30" data-background="assets/images/section-6.jpg">
+		<section class="module module-parallax bg-dark-30" data-background="assets/images/section-8.jpg">
 
 			<!-- HERO TEXT -->
 			<div class="container">
 
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<h1 class="mh-line-size-3 font-alt m-b-20">About us</h1>
-						<h5 class="mh-line-size-4 font-alt">Sustainability</h5>
+						<h1 class="mh-line-size-3 font-alt m-b-20">Contact</h1>
+						<h5 class="mh-line-size-4 font-alt">Get in touch with us</h5>
 					</div>
 				</div>
 
@@ -144,26 +144,102 @@
 		</section>
 		<!-- /HERO -->
 
-		<!-- ABOUT -->
+		<!-- CONTACT -->
 		<section class="module">
 
 			<div class="container">
 
-				<div class="row section-padding">
-					<div class="col-sm-8 col-sm-offset-2">
-						<h5 class="font-alt m-t-0 m-b-20">Sustainability</h5>
-						<p>How our products contribute to environmental, economical and social dimensions of sustainability is important to us. We use steel to manufacture our furniture. Three key properties of steel which make our furniture sustainable are durability, reusability, and 100% recyclability. Furthermore both steel and seed glass beads do not harm people working to produce them, people who handle them during furniture production or recycling and ultimate disposal.</p>
-						<p><a href="contact.html" class="section-scroll">Get in touch to make an order →</a></p>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Get In Touch</h2>
+						<div class="module-subtitle font-serif">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</div>
 					</div>
 				</div>
 
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-1">
+
+						<form id="contact-form" role="form" novalidate="">
+
+							<div class="form-group">
+								<label class="sr-only" for="cname">Name</label>
+								<input type="text" id="cname" class="form-control" name="cname" placeholder="Name*" required="" data-validation-required-message="Please enter your name.">
+								<p class="help-block text-danger"></p>
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="cemail">Your Email</label>
+								<input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail*" required="" data-validation-required-message="Please enter your email address.">
+								<p class="help-block text-danger"></p>
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message*" required="" data-validation-required-message="Please enter your message."></textarea>
+								<p class="help-block text-danger"></p>
+							</div>
+
+							<div class="text-center">
+								<button type="submit" class="btn btn-block btn-round btn-d">Submit</button>
+							</div>
+
+						</form>
+
+						<!-- Ajax response -->
+						<div id="contact-response" class="ajax-response font-alt"></div>
+
+					</div>
+
+					<div class="col-sm-4">
+
+						<!-- ALT CONTENT BOX -->
+						<div class="alt-content-box m-t-0 m-t-sm-30">
+							<div class="alt-content-box-icon">
+								<span class="icon-envelope"></span>
+							</div>
+							<h5 class="alt-content-box-title font-alt">
+								Say Hello
+							</h5>
+							Email: somecompany@example.com<br>
+							Phone: +1 234 567 89 10
+						</div>
+						<!-- /ALT CONTENT BOX -->
+
+						<!-- ALT CONTENT BOX -->
+						<div class="alt-content-box">
+							<div class="alt-content-box-icon">
+								<span class="icon-map"></span>
+							</div>
+							<h5 class="alt-content-box-title font-alt">
+								Where to meet
+							</h5>
+							Address,<br>
+							Address, 12345 LS<br><br>
+							<a href="#module-maps" class="section-scroll">Find us on map →</a>
+						</div>
+						<!-- /ALT CONTENT BOX -->
+
+					</div>
+
+				</div>
 
 			</div>
-		</section >
+		</section>
+		<!-- /CONTACT -->
 
+		<hr class="divider"><!-- DIVIDER -->
 
+		<!-- GOOGLE MAP -->
+		<section id="module-maps">
 
-				<!-- FOOTER -->
+			<div id="map"></div>
+
+		</section>
+		<!-- /GOOGLE MAP -->
+
+		<hr class="divider"><!-- DIVIDER -->
+
+			<!-- FOOTER -->
 		<section class="module-small bg-light">
 		
 			<div class="container">
