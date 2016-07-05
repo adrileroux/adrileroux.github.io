@@ -1,8 +1,8 @@
 <?php
 
 	// Mail settings
-	$to      = "web-master72@yandex.ru";
-	$subject = "Incanto";
+	$to      = "adrileroux@gmail.com";
+	$subject = "Web test 2";
 
 	// You can put here your email
 	$header = "From: adrileroux@gmail.com\r\n";
